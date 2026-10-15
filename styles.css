@@ -706,12 +706,13 @@ h1 {
   .testimonials {
     grid-template-columns: 1fr;
   }
-
+  
   .about {
     grid-template-columns: 1fr;
   }
-
+  
   .footer-content {
+    padding: 0 20px 30px;
     grid-template-columns: 1fr 1fr;
   }
   .form {
