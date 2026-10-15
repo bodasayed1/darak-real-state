@@ -263,7 +263,7 @@ h1 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
 }
 
@@ -371,25 +371,26 @@ h1 {
 .about-sec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
+  padding: 100px 250px;
   gap: 40px;
 }
 @media (max-width: 1000px) {
   .about-sec {
     grid-template-columns: 1fr;
-    padding: 30px 20px;
+    padding: 30px 30px;
   }
 }
 
 .about-img {
   text-align: center;
-  background-color: rgb(255, 254, 254);
+  background-color: var(--white);
   border-radius: var(--radius);
   overflow: hidden;
 
   img {
     width: 100%;
-    height: 320px;
+    height: 340px;
     object-fit: cover;
   }
 }
